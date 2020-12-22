@@ -1,0 +1,58 @@
+#cbfr .keyword {
+	font-weight: 700;
+	color: black;
+	text-transform: capitalized;
+}
+
+#cbfr .pkeyword {
+	margin-left: 1.2rem;
+}
+
+#cbfr .redkeyword {
+	color: red;
+	font-weight: 700;
+	text-transform: capitalized;
+}
+
+#cbfr .comment {
+	color: #555;
+	font-style: italic;
+}
+
+#cbfr .image {
+	font-style: italic;
+	color: #daa;
+}
+
+#cbfr .unorder, #cbfr .order {
+	margin-left: 1.2rem;
+}
+
+#cbfr .unorder-des, #cbfr .order-des {
+	margin-left: 2.4rem;
+}
+
+#cbfr .unorder-item {
+	color: #44b;
+	font-weight: 700;
+	margin-left: 1rem;
+	text-transform: capitalized;
+}
+
+.order-item {
+	margin-left: 1.5rem;
+	font-weight: 700;
+	color: #479;
+}
+
+.monospace {
+	font-family: monospace, monospace;
+}
+
+.cbhr {
+	color: lightgray;
+	margin-left: 3px;
+	width: 50%;
+	z-index: 1;
+}
+

@@ -1,0 +1,49 @@
+/*
+	Defines the color of UI, it can be used to turn the blue themed UI to another color
+*/
+
+/*Navigation bar coloring*/
+.navbar-color, .default-background-color {
+	background-color: #58e;
+}
+
+.navbar-title-color, .navbar-item-color, .heading-color {
+	color: white;
+}
+
+.navbar-item-color:hover {
+	color: #005;
+}
+
+.navbar-item-color:active {
+	background-color: #79d;
+}
+
+.nav-dropdown, .background {
+	background: #c8d8ff;
+}
+
+.nav-dropdown-item, .text-color{
+	color: #005;
+}
+
+.nav-dropdown-item:hover {
+	background-color: #8ad;
+}
+
+.nav-dropdown-item:active {
+	background-color: #8ad; /*old color 9be*/
+	color: white;
+	font-weight: 700;
+}
+
+.border-color {
+	border: 1px solid #36c;
+}
+
+/*==============================================*/
+.hamburger-icon {
+	background-color: #22a;
+}
+
+

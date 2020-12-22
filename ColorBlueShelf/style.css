@@ -1,0 +1,88 @@
+#colorblueshelf {
+	display: block;
+	user-select: none;
+	z-index: 1;
+	width: 100%;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+#shelf-item-heading {
+	display: grid;
+	grid-template-columns: 1fr 48px;
+	overflow: hidden;
+}
+
+#option-btn {
+	width: 100%;
+	height: 100%;
+	padding: 8px 0 0 16px;
+}
+
+
+/*========================================*/
+
+#shelf-item-heading-container{
+	display: flex;
+	padding: 0.3rem 0 0.3rem .3rem;
+}
+
+#shelf-item-heading-container img {
+	margin: 0 0.5rem;
+}
+
+#shelf-item-heading-container span {
+	margin: 0 0.5rem;
+}
+
+#shelf-item-heading-container .name {
+	display: block;
+	max-height: 2rem;
+	overflow: hidden;
+}
+
+#shelf-item-heading-container .name > div {
+	display: block;
+	margin-top: 0.5rem;
+}
+
+/*========================================*/
+#shelf-more-item-container {
+	transition-property: height;
+	transition-timing-function: ease;
+	overflow: hidden;
+}
+
+/*========================================*/
+#shelf-child-item-container {
+}
+
+#shelf-child-item-heading {
+	display: grid;
+	grid-template-columns: 1fr 48px;
+}
+
+#shelf-child-heading {
+	display: flex;
+	padding: 0.3rem 0 .3rem 1.5rem;
+}
+
+#shelf-child-heading img {
+	margin: 0 0.5rem;
+}
+
+#shelf-child-heading .name {
+	display: block;
+	max-height: 2rem;
+	overflow: hidden;
+}
+
+#shelf-child-heading .name > div {
+	display: block;
+	margin-top: 0.5rem;
+}
+
+/*========================================*/
+

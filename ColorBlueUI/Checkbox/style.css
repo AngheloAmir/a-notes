@@ -1,0 +1,45 @@
+#bluelight-checkbox {
+	display: inline-block;
+}
+
+.blcheckbox {
+	width: 2rem;
+	height: 2rem;
+	border: 1px solid #36c;
+}
+
+.ripple-effect-small {
+	display: block;
+	position: absolute;
+	left: 50%; top: 50%;
+	width: 120px;
+	height: 120px;
+	margin-left: -60px;
+	margin-top: -60px;
+	background: #7af;
+	border-radius: 100%;
+	opacity: .6;
+	transform: scale(0);
+	z-index: 0;
+	animation: ripple-small-anim 1s ease;
+}
+
+@keyframes ripple-small-anim {
+	0% {
+		transform: scale(0);
+	}
+	20% {
+		transform: scale(.5);
+	}
+	100% {
+		opacity: 0;
+		transform: scale( .5);
+	}
+}
+
+@media(min-width: 767px) {
+	.blcheckbox {
+		width: 1.2rem;
+		height: 1.2rem;
+	}
+}

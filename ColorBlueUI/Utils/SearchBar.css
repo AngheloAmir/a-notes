@@ -1,0 +1,54 @@
+/* -----
+SVG Icons - svgicons.sparkk.fr - 4691f6
+----- */
+
+.svg-icon {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: white;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+/*=========================*/
+#nav-search-bar-container {
+	display: inline;
+	padding-top: 0.4rem;
+}
+
+#nav-search-bar {
+	display: grid;
+	grid-template-columns: 1fr 32px 8px;
+	width: 100%;
+}
+
+#nav-search-bar form > input {
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-size: 0.9rem;
+	padding: 0 0 0 8px;
+	width: 100%
+}
+
+#nav-search-icon {
+	padding-left: 0.5rem;
+	width: 100%;
+}
+
+#nav-search-icon:hover {
+	background-color: darkblue;
+}
+
+#nav-search-icon:active {
+	background-color: darkblue;
+}
+
