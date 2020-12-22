@@ -1,0 +1,18 @@
+#quiz-start {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	height: 100vh;
+}
+
+#quiz-start .btn{
+	display: grid;
+	grid-template-rows: 2.1em 2.1rem;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+}
+
+#quiz-start .btn button {
+	height: 2rem;
+	width: 100%;
+}

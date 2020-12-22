@@ -1,0 +1,22 @@
+#quiz-settings .text {
+	display: inline-block;
+	font-size: 1rem;
+	margin-left: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+#quiz-welcome-btn {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1rem;
+	margin-top: 3rem;
+}
+
+#quiz-welcome-btn button {
+	color: black;
+	background-color: white;
+	height: 2rem;
+}
+
+
+

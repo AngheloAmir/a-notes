@@ -1,0 +1,57 @@
+#search-screen {
+	font-size: 0.9rem;
+	margin: 2.5rem 0 0 0.5rem;
+	height: calc( 96vh - 2.6rem);
+	width: calc( 100% - 1rem);
+}
+
+#search-result-div {
+	height: calc( 100% - 2.1rem);
+	overflow-x: hidden;
+	overflow-y: scroll;
+	scrollbar-width: 1px;
+	width: calc( 100% - 2rem );
+	margin-left: 1rem;
+}
+
+#search-btn button {
+	background-color: white;
+	border: none;
+	color: black;
+	font-size: 1rem;
+	height: 1.5rem;
+	margin-left: 30%;
+	margin-top: 0.25rem;
+	width: 40%;
+}
+
+#search-result .item {
+	margin-bottom: 1rem;
+}
+
+#search-result .found-item {
+	margin-bottom: 4px;
+}
+
+#search-result .found-keyword {
+	margin-left: 1.2rem;
+	font-weight: 700;
+	color: #46d;
+}
+
+#search-result .found-text {
+	margin-left: 2.4em;
+}
+
+@media( min-width: 767px ) {
+	#search-screen {
+		width: 500px;
+		margin-left: calc( (100% - 500px) / 2 );
+	}
+
+	#search-result-div {
+		width: calc( 100% - 2rem );
+		margin-left: 1rem;
+	}
+}
+

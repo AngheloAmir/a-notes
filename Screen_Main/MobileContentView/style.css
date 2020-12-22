@@ -1,0 +1,24 @@
+.screen-heading {
+	background-color: #58e;
+	color: white;
+	padding-left: 1em;
+}
+
+/*===================================*/
+#view-mobile {
+	height: calc( 96vh - 2rem );
+}
+
+#view-mobile .pageview{
+	height: calc( 100% - 3.5rem );
+	overflow: scroll;
+}
+
+#view-mobile .pageedit textarea{
+	height: calc(96vh - 5.5rem );
+}
+
+#view-mobile .btn {
+	padding-top: .75rem;
+}
+

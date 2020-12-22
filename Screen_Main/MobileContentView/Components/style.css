@@ -1,0 +1,38 @@
+#page-view {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	/*-ms-overflow-style: none;*/
+	scrollbar-width: 2px;
+}
+
+#page-view::-webkit-scrollbar {
+	width: 2px;
+}
+
+#page-view .render-container {
+	font-size: 0.9rem;
+	padding: 0.2rem 1rem 1rem 1rem;
+}
+
+#page-edit textarea {
+	box-sizing: border-box;
+	width: 100%; height: 100%;
+	padding: 0.25rem;
+}
+
+#page-button{
+	padding: 0.25rem 0 0 1rem;
+}
+
+#page-button button {
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1rem;
+	outline: none;
+	height: 1.5rem;
+	width: 120px;
+	z-index: 0;
+	background-color: white;
+	margin-right: 2rem;
+}

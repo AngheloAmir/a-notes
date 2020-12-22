@@ -1,0 +1,12 @@
+#quiz-screen {
+	margin-top: 3rem;
+	width: 90%;
+	margin-left: 5%;
+}
+
+@media (min-width: 767px) {
+	#quiz-screen {
+		width: 500px;
+		margin: 3rem 0 0 calc( (100% - 500px) / 2 );
+	}
+}

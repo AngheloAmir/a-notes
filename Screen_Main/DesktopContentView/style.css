@@ -1,0 +1,57 @@
+#app-screen {
+	margin: 2.6em 0 0 2.5%;
+	width: 95%;
+}
+
+#desktop-screen {
+	display: flex;
+	height: calc(96vh - 2.2rem);
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+#desktop-screen .shelf {
+	width: 250px;
+	border: 1px solid #36c;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	/*-ms-overflow-style: none;*/
+	scrollbar-width: 2px;
+}
+
+#desktop-screen .shelf::-webkit-scrollbar {
+	width: 2px;
+}
+
+#desktop-screen .pageview {
+	width: calc( 100% - 270px );
+	border: 1px solid #36c;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 2rem;
+}
+
+.screen-heading {
+	background-color: #58e;
+	color: white;
+	padding-left: 1em;
+}
+
+/*===================================*/
+#view-mobile {
+	height: calc( 96vh - 2rem );
+}
+
+#view-mobile .pageview{
+	height: calc( 100% - 3.5rem );
+	overflow: scroll;
+}
+
+#view-mobile .pageedit textarea{
+	height: calc(96vh - 5.5rem );
+}
+
+#view-mobile .btn {
+	padding-top: .75rem;
+}
+

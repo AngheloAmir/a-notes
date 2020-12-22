@@ -1,0 +1,39 @@
+#quiz-welcome-screen {
+}
+
+#welcome-screen-content {
+	margin-top: 1rem;
+}
+
+#welcome-screen-content p {
+	margin-bottom: 1rem;
+}
+
+#welcome-screen-content .settings .text {
+	display: inline-block;
+	font-size: 1rem;
+	margin-left: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+/*===================================*/
+#quiz-message p {
+	text-align: center;
+	margin: 2rem 0 50vh 0;
+}
+
+#quiz-message button {
+	border: none;
+	background-color: white;
+	color: black;
+	height: 2rem;
+	width: 80%;
+	margin-left: 10%;
+}
+
+@media( min-width: 767px) {
+	#quiz-message button {
+		width: 40%;
+		margin-left: 30%;
+	}
+}

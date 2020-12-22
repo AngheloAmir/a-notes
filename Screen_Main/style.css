@@ -1,0 +1,37 @@
+#app-screen {
+	margin: 2.6em 0 0 2.5%;
+	width: 95%;
+}
+
+#view-mobile {
+	height: calc( 96vh - 2rem );
+}
+
+#desktop-screen {
+	display: flex;
+	height: calc(96vh - 2.2rem);
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+#desktop-screen .shelf {
+	width: 250px;
+	border: 1px solid #36c;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	/*-ms-overflow-style: none;*/
+	scrollbar-width: 2px;
+}
+
+#desktop-screen .shelf::-webkit-scrollbar {
+	width: 2px;
+}
+
+#desktop-screen .pageview {
+	width: calc( 100% - 270px );
+	border: 1px solid #36c;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 2rem;
+}
+
