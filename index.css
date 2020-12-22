@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #dde;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	/*
+	width: 380px;
+	margin-left: 170px;
+	border: 1px solid red;
+	*/
+}
