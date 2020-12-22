@@ -10,10 +10,11 @@ Works like an ordinary text editor but includes text highlighing and a simple qu
 Under MIT
 
 ## Preview
-When the display is less than 767px (screen width)
+### When the display is less than 767px (screen width)
 ![alt text](https://github.com/AngheloAmir/reviewer-web-app/blob/master/preview/preview1-mobile.png?raw=true)
 
-For desktop
+###
+### For desktop
 ![alt text](https://github.com/AngheloAmir/reviewer-web-app/blob/master/preview/preview1-desktop.png)
 ![alt text](https://github.com/AngheloAmir/reviewer-web-app/blob/master/preview/preview2-desktop.png)
 ![alt text](https://github.com/AngheloAmir/reviewer-web-app/blob/master/preview/preview3-desktop.png)
