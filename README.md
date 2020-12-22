@@ -6,4 +6,8 @@ Well, as a student I always come across memorazing a sets of syllabus or words a
 For example, what is the meaning of ICT. This app aid students in their review before an examination.
 Works like an ordinary text editor but includes text highlighing and a simple quiz generator.
 
-
+##Preview
+![alt text](https://github.com/AngheloAmir/reviewer-web-app/tree/master/preview/preview1-mobile.png?raw=true)
+![alt text](https://github.com/AngheloAmir/reviewer-web-app/tree/master/preview/preview1-desktop.png?raw=true)
+![alt text](https://github.com/AngheloAmir/reviewer-web-app/tree/master/preview/preview2-desktop.png?raw=true)
+![alt text](https://github.com/AngheloAmir/reviewer-web-app/tree/master/preview/preview3-desktop.png?raw=true)
