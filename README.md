@@ -7,7 +7,7 @@ For example, what is the meaning of ICT. This app aid students in their review b
 Works like an ordinary text editor but includes text highlighing and a simple quiz generator.
 
 
-![preview1-mobile](https://github.com/AngheloAmir/reviewer-web-app/tree/master/preview/preview1-mobile.png?raw=true)
-![alt text](https://github.com/AngheloAmir/reviewer-web-app/tree/master/preview/preview1-desktop.png?raw=true)
-![alt text](https://github.com/AngheloAmir/reviewer-web-app/tree/master/preview/preview2-desktop.png?raw=true)
-![alt text](https://github.com/AngheloAmir/reviewer-web-app/tree/master/preview/preview3-desktop.png?raw=true)
+![preview1-mobile](https://github.com/AngheloAmir/reviewer-web-app/tree/master/preview/preview1-mobile.png)
+![alt text](https://github.com/AngheloAmir/reviewer-web-app/tree/master/preview/preview1-desktop.png)
+![alt text](https://github.com/AngheloAmir/reviewer-web-app/tree/master/preview/preview2-desktop.png)
+![alt text](https://github.com/AngheloAmir/reviewer-web-app/tree/master/preview/preview3-desktop.png)
